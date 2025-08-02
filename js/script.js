@@ -72,7 +72,7 @@ if (contenedor) {
         </div>
         <div class="card-content">
           <p class="title is-5">${p.nombre}</p>
-          <a href="${p.ruta}" class="button is-link is-small">Ver demo</a>
+          <a href="${p.ruta}" class="button is-link is-small" target="_blank">Ver demo</a>
         </div>
       </div>
     `;
