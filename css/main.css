@@ -57,3 +57,44 @@
   background: linear-gradient(135deg, #00b3e6, #00c9a7);
   transform: translateY(-2px);
 }
+
+.box {
+  padding: 1.5rem;
+}
+
+.box:hover {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+
+.image img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.button.is-cta {
+  background: linear-gradient(135deg, #00c9a7, #00b3e6);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75em 1.5em;
+  transition: background  0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.button.is-cta:hover {
+  background: linear-gradient(135deg, #00b3e6, #00c9a7);
+  transform: translateY(-2px);
+}
+footer {
+   background-color: var(--azul-oscuro);
+   color: white;
+   text-align: center;
+   padding: 2rem 1rem;
+   font-size: 0.9rem;
+ }

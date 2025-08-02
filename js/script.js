@@ -21,9 +21,9 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 // Insertar dinámicamente las tarjetas de proyectos
 const proyectos = [
   {
-    nombre: 'Restaurante Delicioso',
+    nombre: 'Restaurante Tres Hermanos',
     imagen: 'assets/img/restaurante.jpg',
-    ruta: 'proyectos/restaurante/index.html'
+    ruta: 'https://treshermanosrestaurante.66ghz.com/',
   },
   {
     nombre: 'Agencia de Viajes Aventuras',
