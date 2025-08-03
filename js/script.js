@@ -31,9 +31,9 @@ const proyectos = [
     ruta: 'proyectos/agencia/index.html'
   },
   {
-    nombre: 'Perfumería Huele a istmo',
+    nombre: 'Essenza Perfumería',
     imagen: 'assets/img/perfumeria.jpg',
-    ruta: 'proyectos/perfumería/index.html'
+    ruta: 'https://essenza-perfumes.66ghz.com/'
   },
   {
     nombre: 'Barbería Estilo Pro',
